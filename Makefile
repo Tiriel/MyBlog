@@ -124,6 +124,7 @@ ifeq (, $(shell command -v yarn 2>/dev/null))
 	source ~/.bashrc
 endif
 	yarn install --ignore-optional --ignore-script --no-progress
+>>>>>> Pretty Makefile :)
 	@printf "\n"
 
 .PHONY: install
