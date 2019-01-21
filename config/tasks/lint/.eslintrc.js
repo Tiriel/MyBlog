@@ -58,12 +58,12 @@ module.exports = {
         "prettier/prettier": [
             "error",
             {
-                arrowParens: "always",
-                bracketSpacing: true,
-                jsxBracketSameLine: true,
-                semi: true,
-                singleQuote: false,
-                tabWidth: 4
+                "arrowParens": "always",
+                "bracketSpacing": true,
+                "jsxBracketSameLine": true,
+                "semi": true,
+                "singleQuote": false,
+                "tabWidth": 4
             }
         ],
         "react/jsx-uses-react": "error",
@@ -129,8 +129,8 @@ module.exports = {
             "error",
             "always",
             {
-                arraysInObjects: false,
-                objectsInObjects: true
+                "arraysInObjects": false,
+                "objectsInObjects": true
             }
         ],
         "one-var": 2,

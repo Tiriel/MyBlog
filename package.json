@@ -49,8 +49,15 @@
     "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-context-component": "0.0.6",
+    "react-dom": "^16.7.0",
+    "react-helmet": "^5.2.0",
+    "react-motion-menu": "^0.4.4",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-twitter-widgets": "^1.7.1"
   }
 }
