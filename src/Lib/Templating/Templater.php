@@ -17,8 +17,6 @@ class Templater
 
     public function render(string $file, array $params = []): string
     {
-        $template = $this->twigEnv->load($file);
-
-        return $template->render($params);
+        return $this->twigEnv->render($file, $params);
     }
 }

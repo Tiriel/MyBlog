@@ -58,12 +58,12 @@ module.exports = {
         "prettier/prettier": [
             "error",
             {
-                "arrowParens": "always",
-                "bracketSpacing": true,
-                "jsxBracketSameLine": true,
-                "semi": true,
-                "singleQuote": false,
-                "tabWidth": 4
+                arrowParens: "always",
+                bracketSpacing: true,
+                jsxBracketSameLine: true,
+                semi: true,
+                singleQuote: false,
+                tabWidth: 4
             }
         ],
         "react/jsx-uses-react": "error",
@@ -129,24 +129,24 @@ module.exports = {
             "error",
             "always",
             {
-                "arraysInObjects": false,
-                "objectsInObjects": true
+                arraysInObjects: false,
+                objectsInObjects: true
             }
         ],
         "one-var": 2,
         "one-var-declaration-per-line": 2,
         "operator-linebreak": 2,
         "prefer-const": 2,
-        "quotes": 2,
+        quotes: 2,
         "rest-spread-spacing": 2,
-        "semi": 2,
+        semi: 2,
         "semi-spacing": 2,
         "space-before-blocks": 2,
         "space-in-parens": 2,
         "space-infix-ops": 2,
         "space-unary-ops": 2,
         "spaced-comment": 2,
-        "strict": 2,
+        strict: 2,
         "symbol-description": 2,
         "template-curly-spacing": 2,
         "unicode-bom": 2

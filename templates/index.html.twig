@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% block stylesheets %}
+    <link rel="stylesheet" href="../public/build/index.css" />
+    {% endblock %}
+</head>
+<body>
+<div id="root"></div>
+{% block javascripts %}
+    <script type="application/javascript" src="../public/build/runtime.js"></script>
+<script type="application/javascript" src="../public/build/index.js"></script>
+{% endblock %}
+</body>
+</html>
