@@ -27,6 +27,7 @@ help::
 	@printf "\033[32m   build             \033[39m run make check and build the frontend for production\n"
 	@printf "\n"
 	@printf "\033[32m   check             \033[39m run make install, make lint, and make test in that order\n"
+	@printf "\033[32m   watch             \033[39m run Symfony Encore with Webpack to build and watch frontend\n"
 	@printf "\033[32m   build             \033[39m run make check and build the frontend for production\n"
 	@printf "\n"
 
@@ -124,7 +125,6 @@ ifeq (, $(shell command -v yarn 2>/dev/null))
 	source ~/.bashrc
 endif
 	yarn install --ignore-optional --ignore-script --no-progress
->>>>>> Pretty Makefile :)
 	@printf "\n"
 
 .PHONY: install
