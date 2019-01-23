@@ -740,15 +740,9 @@
     source-map "^0.6.1"
 
 "@types/webpack@^3.0.0 || ^4.0.0":
-<<<<<<< HEAD
-  version "4.4.24"
-  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.4.24.tgz#75bc301176066f566ec54151b6101c2b45abb8b2"
-  integrity sha512-yg99CjvB7xZ/iuHrsZ7dkGKoq/FRDzqLzAxKh2EmTem6FWjzrty4FqCqBYuX5z+MFwSaaQGDAX4Q9HQkLjGLnQ==
-=======
   version "4.4.23"
   resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.4.23.tgz#059d6f4598cfd65ddee0e2db38317ef989696712"
   integrity sha512-WswyG+2mRg0ul/ytPpCSWo+kOlVVPW/fKCBEVwqmPVC/2ffWEwhsCEQgnFbWDf8EWId2qGcpL623EjLfNTRk9A==
->>>>>>> Migrate from npm to yarn, numerous fixes
   dependencies:
     "@types/anymatch" "*"
     "@types/node" "*"
@@ -1155,14 +1149,11 @@ arrify@^1.0.1:
   resolved "https://registry.yarnpkg.com/arrify/-/arrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
   integrity sha1-iYUI2iIm84DfkEcoRWhJwVAaSw0=
 
-<<<<<<< HEAD
-=======
 asap@~2.0.3:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
   integrity sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 asn1.js@^4.0.0:
   version "4.10.1"
   resolved "https://registry.yarnpkg.com/asn1.js/-/asn1.js-4.10.1.tgz#b9c2bf5805f1e64aadeed6df3a2bfafb5a73f5a0"
@@ -1259,8 +1250,6 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
   integrity sha512-ReZxvNHIOv88FlT7rxcXIIC0fPt4KZqZbOlivyWtXLt8ESx84zd3kMC6iK5jVeS2qt+g7ftS7ye4fi06X5rtRQ==
 
-<<<<<<< HEAD
-=======
 axios@^0.18.0:
   version "0.18.0"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.18.0.tgz#32d53e4851efdc0a11993b6cd000789d70c05102"
@@ -1269,7 +1258,6 @@ axios@^0.18.0:
     follow-redirects "^1.3.0"
     is-buffer "^1.1.5"
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 axobject-query@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/axobject-query/-/axobject-query-0.1.0.tgz#62f59dbc59c9f9242759ca349960e7a2fe3c36c0"
@@ -2381,15 +2369,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30000929:
-<<<<<<< HEAD
-  version "1.0.30000930"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000930.tgz#c238bab82bedb462bcbdc61d0334932dcc084d8a"
-  integrity sha512-KD+pw9DderBLB8CGqBzYyFWpnrPVOEjsjargU/CvkNyg60od3cxSPTcTeMPhxJhDbkQPWvOz5BAyBzNl/St9vg==
-=======
   version "1.0.30000929"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000929.tgz#7b391b781a9c3097ecc39ea053301aea8ea16317"
   integrity sha512-n2w1gPQSsYyorSVYqPMqbSaz1w7o9ZC8VhOEGI9T5MfGDzp7sbopQxG6GaQmYsaq13Xfx/mkxJUWC1Dz3oZfzw==
->>>>>>> Migrate from npm to yarn, numerous fixes
 
 capture-exit@^1.2.0:
   version "1.2.0"
@@ -2743,12 +2725,6 @@ copy-descriptor@^0.1.0:
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
-<<<<<<< HEAD
-core-js@^2.4.0, core-js@^2.5.0:
-  version "2.6.3"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.3.tgz#4b70938bdffdaf64931e66e2db158f0892289c49"
-  integrity sha512-l00tmFFZOBHtYhN4Cz7k32VM7vTn3rE2ANjQDxdEN6zmXZ/xq1jQuutnmHvMG1ZJ7xd72+TA5YpUK8wz3rWsfQ==
-=======
 core-js@^1.0.0:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
@@ -2758,7 +2734,6 @@ core-js@^2.4.0, core-js@^2.5.0:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.2.tgz#267988d7268323b349e20b4588211655f0e83944"
   integrity sha512-NdBPF/RVwPW6jr0NCILuyN9RiqLo2b1mddWHkUL+VnvcB7dzlnBJ1bXYntjpTGOgkZiiLWj2JxmOr7eGE3qK6g==
->>>>>>> Migrate from npm to yarn, numerous fixes
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -2806,8 +2781,6 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-<<<<<<< HEAD
-=======
 create-react-class@^15.5.2, create-react-class@^15.6.0:
   version "15.6.3"
   resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.3.tgz#2d73237fb3f970ae6ebe011a9e66f46dbca80036"
@@ -2817,7 +2790,6 @@ create-react-class@^15.5.2, create-react-class@^15.6.0:
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 cross-spawn@^5.0.1:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-5.1.0.tgz#e8bd0efee58fcff6f8f94510a0a554bbfa235449"
@@ -3383,14 +3355,11 @@ dot-prop@^4.1.1:
   dependencies:
     is-obj "^1.0.0"
 
-<<<<<<< HEAD
-=======
 dotenv@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.2.0.tgz#941c0410535d942c8becf28d3f357dbd9d476064"
   integrity sha512-HygQCKUBSFl8wKQZBSemMywRWcEDNidvNbjGVyZu3nbZ8qq9ubiPoGLMdRDpfSrpkkm9BXYFkpKxxFX38o/76w==
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 duplexify@^3.4.2, duplexify@^3.6.0:
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/duplexify/-/duplexify-3.6.1.tgz#b1a7a29c4abfd639585efaecce80d666b1e34125"
@@ -3415,15 +3384,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.103, electron-to-chromium@^1.3.30, electron-to-chromium@^1.3.47:
-<<<<<<< HEAD
-  version "1.3.106"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.106.tgz#672183160e783cb546cff83d9a98d5f69cd91874"
-  integrity sha512-eXX45p4q9CRxG0G8D3ZBZYSdN3DnrcZfrFvt6VUr1u7aKITEtRY/xwWzJ/UZcWXa7DMqPu/pYwuZ6Nm+bl0GmA==
-=======
   version "1.3.103"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.103.tgz#a695777efdbc419cad6cbb0e58458251302cd52f"
   integrity sha512-tObPqGmY9X8MUM8i3MEimYmbnLLf05/QV5gPlkR8MQ3Uj8G8B2govE1U4cQcBYtv3ymck9Y8cIOu4waoiykMZQ==
->>>>>>> Migrate from npm to yarn, numerous fixes
 
 elliptic@^6.0.0:
   version "6.4.1"
@@ -3453,8 +3416,6 @@ encodeurl@~1.0.2:
   resolved "https://registry.yarnpkg.com/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
   integrity sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
 
-<<<<<<< HEAD
-=======
 encoding@^0.1.11:
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/encoding/-/encoding-0.1.12.tgz#538b66f3ee62cd1ab51ec323829d1f9480c74beb"
@@ -3462,7 +3423,6 @@ encoding@^0.1.11:
   dependencies:
     iconv-lite "~0.4.13"
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/end-of-stream/-/end-of-stream-1.4.1.tgz#ed29634d19baba463b6ce6b80a37213eab71ec43"
@@ -3565,11 +3525,7 @@ eslint-config-standard@^12.0.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-12.0.0.tgz#638b4c65db0bd5a41319f96bba1f15ddad2107d9"
   integrity sha512-COUz8FnXhqFitYj4DTqHzidjIL/t4mumGZto5c7DrBpvWoie+Sn3P4sLEzUGeYhRElWuFEf8K1S1EfvD1vixCQ==
 
-<<<<<<< HEAD
-eslint-import-resolver-node@^0.3.2:
-=======
 eslint-import-resolver-node@^0.3.1:
->>>>>>> Migrate from npm to yarn, numerous fixes
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.2.tgz#58f15fb839b8d0576ca980413476aab2472db66a"
   integrity sha512-sfmTqJfPSizWu4aymbPr4Iidp5yKm8yDkHp+Ir3YiTHiiDfxh69mOUsmiqW6RZ9zRXFaF64GtYmN7e+8GHBv6Q==
@@ -3588,15 +3544,6 @@ eslint-loader@^1.9.0:
     object-hash "^1.1.4"
     rimraf "^2.6.1"
 
-<<<<<<< HEAD
-eslint-module-utils@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-module-utils/-/eslint-module-utils-2.3.0.tgz#546178dab5e046c8b562bbb50705e2456d7bda49"
-  integrity sha512-lmDJgeOOjk8hObTysjqH7wyMi+nsHwwvfBykwfhjR1LNdd7C2uFJBvx4OpWYpXOw4df1yE1cDEVd1yLHitk34w==
-  dependencies:
-    debug "^2.6.8"
-    pkg-dir "^2.0.0"
-=======
 eslint-module-utils@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/eslint-module-utils/-/eslint-module-utils-2.2.0.tgz#b270362cd88b1a48ad308976ce7fa54e98411746"
@@ -3604,7 +3551,6 @@ eslint-module-utils@^2.2.0:
   dependencies:
     debug "^2.6.8"
     pkg-dir "^1.0.0"
->>>>>>> Migrate from npm to yarn, numerous fixes
 
 eslint-plugin-flowtype@^2.50.3:
   version "2.50.3"
@@ -3614,22 +3560,6 @@ eslint-plugin-flowtype@^2.50.3:
     lodash "^4.17.10"
 
 eslint-plugin-import@^2.14.0:
-<<<<<<< HEAD
-  version "2.15.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.15.0.tgz#d8f3c28b8988ccde5df964706faa7c1e52f0602a"
-  integrity sha512-LEHqgR+RcnpGqYW7h9WMkPb/tP+ekKxWdQDztfTtZeV43IHF+X8lXU+1HOCcR4oXD24qRgEwNSxIweD5uNKGVg==
-  dependencies:
-    contains-path "^0.1.0"
-    debug "^2.6.9"
-    doctrine "1.5.0"
-    eslint-import-resolver-node "^0.3.2"
-    eslint-module-utils "^2.3.0"
-    has "^1.0.3"
-    lodash "^4.17.11"
-    minimatch "^3.0.4"
-    read-pkg-up "^2.0.0"
-    resolve "^1.9.0"
-=======
   version "2.14.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.14.0.tgz#6b17626d2e3e6ad52cfce8807a845d15e22111a8"
   integrity sha512-FpuRtniD/AY6sXByma2Wr0TXvXJ4nA/2/04VPlfpmUDPOpOY264x+ILiwnrk/k4RINgDAyFZByxqPUbSQ5YE7g==
@@ -3644,7 +3574,6 @@ eslint-plugin-import@^2.14.0:
     minimatch "^3.0.3"
     read-pkg-up "^2.0.0"
     resolve "^1.6.0"
->>>>>>> Migrate from npm to yarn, numerous fixes
 
 eslint-plugin-jsx-a11y@^5.1.1:
   version "5.1.1"
@@ -3859,14 +3788,11 @@ execa@^1.0.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
-<<<<<<< HEAD
-=======
 exenv@^1.2.1:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/exenv/-/exenv-1.2.2.tgz#2ae78e85d9894158670b03d47bec1f03bd91bb9d"
   integrity sha1-KueOhdmJQVhnCwPUe+wfA72Ru50=
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 exit@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/exit/-/exit-0.1.2.tgz#0632638f8d877cc82107d30a0fff1a17cba1cd0c"
@@ -4060,8 +3986,6 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "^2.0.0"
 
-<<<<<<< HEAD
-=======
 fbjs@^0.8.9:
   version "0.8.17"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.17.tgz#c4d598ead6949112653d6588b01a5cdcd9f90fdd"
@@ -4075,7 +3999,6 @@ fbjs@^0.8.9:
     setimmediate "^1.0.5"
     ua-parser-js "^0.7.18"
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 figgy-pudding@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.5.1.tgz#862470112901c727a0e495a80744bd5baa1d6790"
@@ -4219,11 +4142,7 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.1"
     readable-stream "^2.0.4"
 
-<<<<<<< HEAD
-follow-redirects@^1.0.0:
-=======
 follow-redirects@^1.0.0, follow-redirects@^1.3.0:
->>>>>>> Migrate from npm to yarn, numerous fixes
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.6.1.tgz#514973c44b5757368bad8bddfe52f81f015c94cb"
   integrity sha512-t2JCjbzxQpWvbhts3l6SH1DKzSrx8a+SsaVf4h6bG4kOXUuPYS/kg2Lr4gQSb7eemaHqJkOThF1BGyjlUkO1GQ==
@@ -4601,8 +4520,6 @@ hex-color-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
 
-<<<<<<< HEAD
-=======
 history@^4.7.2:
   version "4.7.2"
   resolved "https://registry.yarnpkg.com/history/-/history-4.7.2.tgz#22b5c7f31633c5b8021c7f4a8a954ac139ee8d5b"
@@ -4614,7 +4531,6 @@ history@^4.7.2:
     value-equal "^0.4.0"
     warning "^3.0.0"
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 hmac-drbg@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
@@ -4624,14 +4540,11 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-<<<<<<< HEAD
-=======
 hoist-non-react-statics@^2.5.0:
   version "2.5.5"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-2.5.5.tgz#c5903cf409c0dfd908f388e619d86b9c1174cb47"
   integrity sha512-rqcy4pJo55FTTLWt+bU8ukscqHeE/e9KWvsOW2b/a3afxQZhwkQdT1rPPCJ0rYXdj4vNcasY8zHTH+jF/qStxw==
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 home-or-tmp@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/home-or-tmp/-/home-or-tmp-2.0.0.tgz#e36c3f2d2cae7d746a857e38d18d5f32a7882db8"
@@ -4759,11 +4672,7 @@ iconv-lite@0.4.23:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
-<<<<<<< HEAD
-iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4:
-=======
 iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4, iconv-lite@~0.4.13:
->>>>>>> Migrate from npm to yarn, numerous fixes
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   integrity sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==
@@ -4906,11 +4815,7 @@ interpret@^1.1.0:
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.2.0.tgz#d5061a6224be58e8083985f5014d844359576296"
   integrity sha512-mT34yGKMNceBQUoVn7iCDKDntA7SC6gycMAWzGx1z/CMCTV7b2AAtXlo3nRyHZ1FelRkQbQjprHSYGwzLtkVbw==
 
-<<<<<<< HEAD
-invariant@^2.2.2, invariant@^2.2.4:
-=======
 invariant@^2.2.1, invariant@^2.2.2, invariant@^2.2.4:
->>>>>>> Migrate from npm to yarn, numerous fixes
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
@@ -5222,11 +5127,7 @@ is-resolvable@^1.0.0:
   resolved "https://registry.yarnpkg.com/is-resolvable/-/is-resolvable-1.1.0.tgz#fb18f87ce1feb925169c9a407c19318a3206ed88"
   integrity sha512-qgDYXFSR5WvEfuS5dMj6oTMEbrrSaM0CrFk2Yiq/gXnBvD9pMa2jGXxyhGLfvhZpuMZe18CJpFxAt3CRs42NMg==
 
-<<<<<<< HEAD
-is-stream@^1.1.0:
-=======
 is-stream@^1.0.1, is-stream@^1.1.0:
->>>>>>> Migrate from npm to yarn, numerous fixes
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/is-stream/-/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
   integrity sha1-EtSj3U5o4Lec6428hBc66A2RykQ=
@@ -5292,8 +5193,6 @@ isobject@^3.0.0, isobject@^3.0.1:
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
 
-<<<<<<< HEAD
-=======
 isomorphic-fetch@^2.1.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz#611ae1acf14f5e81f729507472819fe9733558a9"
@@ -5302,7 +5201,6 @@ isomorphic-fetch@^2.1.1:
     node-fetch "^1.0.1"
     whatwg-fetch ">=0.10.0"
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
@@ -5526,7 +5424,6 @@ jest-jasmine2@^23.6.0:
     jest-util "^23.4.0"
     pretty-format "^23.6.0"
 
-<<<<<<< HEAD
 jest-junit@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/jest-junit/-/jest-junit-6.0.1.tgz#7c24b2aff4ddfce3a8c0e0c84978123c0d4a945a"
@@ -5538,8 +5435,6 @@ jest-junit@^6.0.1:
     strip-ansi "^4.0.0"
     xml "^1.0.1"
 
-=======
->>>>>>> Migrate from npm to yarn, numerous fixes
 jest-leak-detector@^23.6.0:
   version "23.6.0"
   resolved "https://registry.yarnpkg.com/jest-leak-detector/-/jest-leak-detector-23.6.0.tgz#e4230fd42cf381a1a1971237ad56897de7e171de"
@@ -5675,11 +5570,7 @@ jest-util@^23.4.0:
     slash "^1.0.0"
     source-map "^0.6.0"
 
-<<<<<<< HEAD
 jest-validate@^23.0.1, jest-validate@^23.6.0:
-=======
-jest-validate@^23.6.0:
->>>>>>> Migrate from npm to yarn, numerous fixes
   version "23.6.0"
   resolved "https://registry.yarnpkg.com/jest-validate/-/jest-validate-23.6.0.tgz#36761f99d1ed33fcd425b4e4c5595d62b6597474"
   integrity sha512-OFKapYxe72yz7agrDAWi8v2WL8GIfVqcbKRCLbRG9PAxtzF9b1SEDdTpytNDN12z2fJynoBwpMpvj2R39plI2A==
@@ -6134,11 +6025,7 @@ loglevel@^1.4.1:
   resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.6.1.tgz#e0fc95133b6ef276cdc8887cdaf24aa6f156f8fa"
   integrity sha1-4PyVEztu8nbNyIh82vJKpvFW+Po=
 
-<<<<<<< HEAD
-loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.3.1:
-=======
 loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.2.0, loose-envify@^1.3.1:
->>>>>>> Migrate from npm to yarn, numerous fixes
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
@@ -6514,8 +6401,6 @@ nice-try@^1.0.4:
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
-<<<<<<< HEAD
-=======
 node-fetch@^1.0.1:
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-1.7.3.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
@@ -6524,7 +6409,6 @@ node-fetch@^1.0.1:
     encoding "^0.1.11"
     is-stream "^1.0.1"
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 node-forge@0.7.5:
   version "0.7.5"
   resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.7.5.tgz#6c152c345ce11c52f465c2abd957e8639cd674df"
@@ -7055,8 +6939,6 @@ path-to-regexp@0.1.7:
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
   integrity sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
 
-<<<<<<< HEAD
-=======
 path-to-regexp@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-1.7.0.tgz#59fde0f435badacba103a84e9d3bc64e96b9937d"
@@ -7064,7 +6946,6 @@ path-to-regexp@^1.7.0:
   dependencies:
     isarray "0.0.1"
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 path-type@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-1.1.0.tgz#59c44f7ee491da704da415da5a4070ba4f8fe441"
@@ -7092,14 +6973,11 @@ pbkdf2@^3.0.3:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-<<<<<<< HEAD
-=======
 performance-now@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-0.2.0.tgz#33ef30c5c77d4ea21c5a53869d91b56d8f2555e5"
   integrity sha1-M+8wxcd9TqIcWlOGnZG1bY8lVeU=
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
@@ -7491,15 +7369,9 @@ postcss@^6.0.1, postcss@^6.0.23:
     supports-color "^5.4.0"
 
 postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.5:
-<<<<<<< HEAD
-  version "7.0.14"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.14.tgz#4527ed6b1ca0d82c53ce5ec1a2041c2346bbd6e5"
-  integrity sha512-NsbD6XUUMZvBxtQAJuWDJeeC4QFsmWsfozWxCJPWf3M55K9iu2iMDaKqyoOdTJ1R4usBXuxlVFAIo8rZPQD4Bg==
-=======
   version "7.0.13"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.13.tgz#42bf716413e8f1c786ab71dc6e722b3671b16708"
   integrity sha512-h8SY6kQTd1wISHWjz+E6cswdhMuyBZRb16pSTv3W4zYZ3/YbyWeJdNUeOXB5IdZqE1U76OUEjjjqsC3z2f3hVg==
->>>>>>> Migrate from npm to yarn, numerous fixes
   dependencies:
     chalk "^2.4.2"
     source-map "^0.6.1"
@@ -7523,15 +7395,9 @@ prettier-linter-helpers@^1.0.0:
     fast-diff "^1.1.2"
 
 prettier@^1.15.2:
-<<<<<<< HEAD
-  version "1.16.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.16.1.tgz#534c2c9d7853f8845e5e078384e71973bd74089f"
-  integrity sha512-XXUITwIkGb3CPJ2hforHah/zTINRyie5006Jd2HKy2qz7snEJXl0KLfsJZW/wst9g6R2rFvqba3VpNYdu1hDcA==
-=======
   version "1.16.0"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.16.0.tgz#104dd25f5ee3d0c9d0a6ce4bb40ced8481d51219"
   integrity sha512-MCBCYeAuZfejUPdEpkleLWvpRBwLii/Sp5jQs0eb8Ul/drGIDjkL6tAU24tk6yCGf0KPV5rhPPPlczfBmN2pWQ==
->>>>>>> Migrate from npm to yarn, numerous fixes
 
 pretty-error@^2.1.1:
   version "2.1.1"
@@ -7574,8 +7440,6 @@ promise-inflight@^1.0.1:
   resolved "https://registry.yarnpkg.com/promise-inflight/-/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
   integrity sha1-mEcocL8igTL8vdhoEputEsPAKeM=
 
-<<<<<<< HEAD
-=======
 promise@^7.1.1:
   version "7.3.1"
   resolved "https://registry.yarnpkg.com/promise/-/promise-7.3.1.tgz#064b72602b18f90f29192b8b1bc418ffd1ebd3bf"
@@ -7583,7 +7447,6 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 prompts@^0.1.9:
   version "0.1.14"
   resolved "https://registry.yarnpkg.com/prompts/-/prompts-0.1.14.tgz#a8e15c612c5c9ec8f8111847df3337c9cbd443b2"
@@ -7592,11 +7455,7 @@ prompts@^0.1.9:
     kleur "^2.0.1"
     sisteransi "^0.1.1"
 
-<<<<<<< HEAD
-prop-types@^15.6.2:
-=======
 prop-types@^15.3.0, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.8, prop-types@^15.6.1, prop-types@^15.6.2:
->>>>>>> Migrate from npm to yarn, numerous fixes
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
   integrity sha512-3pboPvLiWD7dkI3qf3KbUe6hKFKa52w+AE0VCqECtf+QHAKgOL37tTaNCnuX1nAAQ4ZhyP+kYVKf8rLmJ/feDQ==
@@ -7704,8 +7563,6 @@ querystringify@^2.0.0:
   resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.1.0.tgz#7ded8dfbf7879dcc60d0a644ac6754b283ad17ef"
   integrity sha512-sluvZZ1YiTLD5jsqZcDmFyV2EwToyXZBfpoVOmktMmW+VEnhgakFHnasVph65fOjGPTWN0Nw3+XQaSeMayr0kg==
 
-<<<<<<< HEAD
-=======
 raf@^3.1.0:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/raf/-/raf-3.4.1.tgz#0742e99a4a6552f445d73e3ee0328af0ff1ede39"
@@ -7713,7 +7570,6 @@ raf@^3.1.0:
   dependencies:
     performance-now "^2.1.0"
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 randomatic@^3.0.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/randomatic/-/randomatic-3.1.1.tgz#b776efc59375984e36c537b2f51a1f0aff0da1ed"
@@ -7763,8 +7619,6 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-<<<<<<< HEAD
-=======
 react-context-component@0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/react-context-component/-/react-context-component-0.0.6.tgz#e7fabbfda8b16621367aedb784decd9baf3556cc"
@@ -7792,14 +7646,11 @@ react-helmet@^5.2.0:
     prop-types "^15.5.4"
     react-side-effect "^1.1.0"
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 react-is@^16.7.0:
   version "16.7.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.7.0.tgz#c1bd21c64f1f1364c6f70695ec02d69392f41bfa"
   integrity sha512-Z0VRQdF4NPDoI0tsXVMLkJLiwEBa+RP66g0xDHxgxysxSoCUccSten4RTF/UFvZF1dZvZ9Zu1sx+MDXwcOR34g==
 
-<<<<<<< HEAD
-=======
 react-motion-menu@^0.4.4:
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/react-motion-menu/-/react-motion-menu-0.4.4.tgz#b4c2d4f0c66ccf51a22dcd14aba1fb9c250ebda4"
@@ -7851,7 +7702,6 @@ react-side-effect@^1.1.0:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 react-test-renderer@^16.7.0:
   version "16.7.0"
   resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-16.7.0.tgz#1ca96c2b450ab47c36ba92cd8c03fcefc52ea01c"
@@ -7862,8 +7712,6 @@ react-test-renderer@^16.7.0:
     react-is "^16.7.0"
     scheduler "^0.12.0"
 
-<<<<<<< HEAD
-=======
 react-twitter-widgets@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/react-twitter-widgets/-/react-twitter-widgets-1.7.1.tgz#60061f37a8c4f361c27f3d1d7ceba98d3cd80a40"
@@ -7895,7 +7743,6 @@ react@^16.7.0:
     prop-types "^15.6.2"
     scheduler "^0.12.0"
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 read-pkg-up@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/read-pkg-up/-/read-pkg-up-1.0.1.tgz#9d63c13276c065918d57f002a57f40a1b643fb02"
@@ -8214,14 +8061,11 @@ resolve-from@^4.0.0:
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-4.0.0.tgz#4abcd852ad32dd7baabfe9b40e00a36db5f392e6"
   integrity sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==
 
-<<<<<<< HEAD
-=======
 resolve-pathname@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/resolve-pathname/-/resolve-pathname-2.2.0.tgz#7e9ae21ed815fd63ab189adeee64dc831eefa879"
   integrity sha512-bAFz9ld18RzJfddgrO2e/0S2O81710++chRMUxHjXOYKF6jTAMrUNZrEZ1PvV0zlhfjidm08iRPdTLPno1FuRg==
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 resolve-url-loader@^2.3.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/resolve-url-loader/-/resolve-url-loader-2.3.1.tgz#b462fc7a78a22baf3ee462568d8ff5d766f7f1da"
@@ -8247,11 +8091,7 @@ resolve@1.1.7:
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.1.7.tgz#203114d82ad2c5ed9e8e0411b3932875e889e97b"
   integrity sha1-IDEU2CrSxe2ejgQRs5ModeiJ6Xs=
 
-<<<<<<< HEAD
-resolve@^1.3.2, resolve@^1.5.0, resolve@^1.9.0:
-=======
 resolve@^1.3.2, resolve@^1.5.0, resolve@^1.6.0, resolve@^1.9.0:
->>>>>>> Migrate from npm to yarn, numerous fixes
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.10.0.tgz#3bdaaeaf45cc07f375656dfd2e54ed0810b101ba"
   integrity sha512-3sUr9aq5OfSg2S9pNtPA9hL1FVEAjvfOC4leW0SNf/mpnaakz2a9femSd6LqAww2RaFctwyf1lCqnTHuF1rxDg==
@@ -8398,14 +8238,11 @@ schema-utils@^1.0.0:
     ajv-errors "^1.0.0"
     ajv-keywords "^3.1.0"
 
-<<<<<<< HEAD
-=======
 scriptjs@^2.5.8:
   version "2.5.9"
   resolved "https://registry.yarnpkg.com/scriptjs/-/scriptjs-2.5.9.tgz#343915cd2ec2ed9bfdde2b9875cd28f59394b35f"
   integrity sha512-qGVDoreyYiP1pkQnbnFAUIS5AjenNwwQBdl7zeos9etl+hYKWahjRTfzAZZYBv5xNHx7vNKCmaLDQZ6Fr2AEXg==
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 select-hose@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/select-hose/-/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
@@ -8495,11 +8332,7 @@ set-value@^2.0.0:
     is-plain-object "^2.0.3"
     split-string "^3.0.1"
 
-<<<<<<< HEAD
-setimmediate@^1.0.4:
-=======
 setimmediate@^1.0.4, setimmediate@^1.0.5:
->>>>>>> Migrate from npm to yarn, numerous fixes
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/setimmediate/-/setimmediate-1.0.5.tgz#290cbb232e306942d7d7ea9b83732ab7856f8285"
   integrity sha1-KQy7Iy4waULX1+qbg3Mqt4VvgoU=
@@ -8517,14 +8350,11 @@ sha.js@^2.4.0, sha.js@^2.4.8:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
-<<<<<<< HEAD
-=======
 shallowequal@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/shallowequal/-/shallowequal-1.1.0.tgz#188d521de95b9087404fd4dcb68b13df0ae4e7f8"
   integrity sha512-y0m1JoUZSlPAjXVtPPW70aZWfIL/dSP7AFkRnniLCrK/8MDKog3TySTBmckD+RObVxH0v4Tox67+F14PdED2oQ==
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 shebang-command@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-1.2.0.tgz#44aac65b695b03398968c39f363fee5deafdf1ea"
@@ -8791,15 +8621,9 @@ stealthy-require@^1.1.0:
   integrity sha1-NbCYdbT/SfJqd35QmzCQoyJr8ks=
 
 stream-browserify@^2.0.1:
-<<<<<<< HEAD
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/stream-browserify/-/stream-browserify-2.0.2.tgz#87521d38a44aa7ee91ce1cd2a47df0cb49dd660b"
-  integrity sha512-nX6hmklHs/gr2FuxYDltq8fJA1GDlxKQCz8O/IM4atRqBH8OORmBNgfvW5gG10GT/qQ9u0CzIvr2X5Pkt6ntqg==
-=======
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/stream-browserify/-/stream-browserify-2.0.1.tgz#66266ee5f9bdb9940a4e4514cafb43bb71e5c9db"
   integrity sha1-ZiZu5fm9uZQKTkUUyvtDu3Hlyds=
->>>>>>> Migrate from npm to yarn, numerous fixes
   dependencies:
     inherits "~2.0.1"
     readable-stream "^2.0.2"
@@ -9216,14 +9040,11 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-<<<<<<< HEAD
-=======
 ua-parser-js@^0.7.18:
   version "0.7.19"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.19.tgz#94151be4c0a7fb1d001af7022fdaca4642659e4b"
   integrity sha512-T3PVJ6uz8i0HzPxOF9SWzWAlfN/DavlpQqepn22xgve/5QecC+XMCAtmUNnY7C9StehaV6exjUCI801lOI7QlQ==
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 uglify-js@^3.1.4:
   version "3.4.9"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.4.9.tgz#af02f180c1207d76432e473ed24a28f4a782bae3"
@@ -9405,14 +9226,11 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-<<<<<<< HEAD
-=======
 value-equal@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/value-equal/-/value-equal-0.4.0.tgz#c5bdd2f54ee093c04839d71ce2e4758a6890abc7"
   integrity sha512-x+cYdNnaA3CxvMaTX0INdTCN8m8aF2uY9BvEqmxuYp8bL09cs/kWVQPVGcA35fMktdOsP69IgU7wFj/61dJHEw==
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
@@ -9453,8 +9271,6 @@ walker@~1.0.5:
   dependencies:
     makeerror "1.0.x"
 
-<<<<<<< HEAD
-=======
 warning@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/warning/-/warning-3.0.0.tgz#32e5377cb572de4ab04753bdf8821c01ed605b7c"
@@ -9469,7 +9285,6 @@ warning@^4.0.1:
   dependencies:
     loose-envify "^1.0.0"
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 watch@~0.18.0:
   version "0.18.0"
   resolved "https://registry.yarnpkg.com/watch/-/watch-0.18.0.tgz#28095476c6df7c90c963138990c0a5423eb4b986"
@@ -9646,14 +9461,11 @@ whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3:
   dependencies:
     iconv-lite "0.4.24"
 
-<<<<<<< HEAD
-=======
 whatwg-fetch@>=0.10.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-3.0.0.tgz#fc804e458cc460009b1a2b966bc8817d2578aefb"
   integrity sha512-9GSJUgz1D4MfyKU7KRqwOjXCXTqWdFNvEr7eUBYchQiVc744mqK/MzXPNR2WsPkmkOa4ywfg8C2n8h+13Bey1Q==
 
->>>>>>> Migrate from npm to yarn, numerous fixes
 whatwg-mimetype@^2.1.0, whatwg-mimetype@^2.2.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/whatwg-mimetype/-/whatwg-mimetype-2.3.0.tgz#3d4b1e0312d2079879f826aff18dbeeca5960fbf"
@@ -9727,15 +9539,9 @@ wrappy@1:
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
 write-file-atomic@^2.1.0:
-<<<<<<< HEAD
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/write-file-atomic/-/write-file-atomic-2.4.2.tgz#a7181706dfba17855d221140a9c06e15fcdd87b9"
-  integrity sha512-s0b6vB3xIVRLWywa6X9TOMA7k9zio0TMOsl9ZnDkliA/cfJlpHXAscj0gbHVJiTdIuAYpIyqS5GW91fqm6gG5g==
-=======
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/write-file-atomic/-/write-file-atomic-2.3.0.tgz#1ff61575c2e2a4e8e510d6fa4e243cce183999ab"
   integrity sha512-xuPeK4OdjWqtfi59ylvVL0Yn35SF3zgcAcv7rBPFHVaEapaDr4GdGgm3j7ckTwH9wHL7fGmgfAnb0+THrHb8tA==
->>>>>>> Migrate from npm to yarn, numerous fixes
   dependencies:
     graceful-fs "^4.1.11"
     imurmurhash "^0.1.4"
@@ -9760,14 +9566,11 @@ xml-name-validator@^3.0.0:
   resolved "https://registry.yarnpkg.com/xml-name-validator/-/xml-name-validator-3.0.0.tgz#6ae73e06de4d8c6e47f9fb181f78d648ad457c6a"
   integrity sha512-A5CUptxDsvxKJEU3yO6DuWBSJz/qizqzJKOMIfUJHETbBw/sFaDxgd6fxm1ewUaM0jZ444Fc5vC5ROYurg/4Pw==
 
-<<<<<<< HEAD
 xml@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/xml/-/xml-1.0.1.tgz#78ba72020029c5bc87b8a81a3cfcd74b4a2fc1e5"
   integrity sha1-eLpyAgApxbyHuKgaPPzXS0ovweU=
 
-=======
->>>>>>> Migrate from npm to yarn, numerous fixes
 xregexp@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/xregexp/-/xregexp-4.0.0.tgz#e698189de49dd2a18cc5687b05e17c8e43943020"

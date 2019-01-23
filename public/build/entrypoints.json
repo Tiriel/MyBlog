@@ -2,11 +2,11 @@
   "entrypoints": {
     "index": {
       "js": [
-        "/build/runtime.js",
-        "/build/index.js"
+        "/public/build/runtime.js",
+        "/public/build/index.js"
       ],
       "css": [
-        "/build/index.css"
+        "/public/build/index.css"
       ]
     }
   }
