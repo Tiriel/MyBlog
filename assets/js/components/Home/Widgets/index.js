@@ -4,6 +4,10 @@ import StackFlair from "./StackFlair";
 import LinkedIn from "./LinkedIn";
 
 class Widgets extends React.Component {
+    componentDidCatch(error, info) {
+        console.error(error, info);
+    }
+
     render() {
         return (
             <div className="widgets">

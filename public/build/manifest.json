@@ -1,6 +1,6 @@
 {
-  "build/index.css": "/build/index.css",
-  "build/index.js": "/build/index.js",
-  "build/runtime.js": "/build/runtime.js",
-  "build/images/decoded.jpeg": "/build/images/decoded.819d98a8.jpeg"
+  "public/build/index.css": "/public/build/index.css",
+  "public/build/index.js": "/public/build/index.js",
+  "public/build/runtime.js": "/public/build/runtime.js",
+  "public/build/images/decoded.jpeg": "/public/build/images/decoded.819d98a8.jpeg"
 }

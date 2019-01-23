@@ -14,14 +14,15 @@ class StackFlair extends React.Component {
                 profile_image
             } = this.props.stack,
             medals = [];
+        let i = 0;
         for (const medal in badge_counts) {
             if (
                 badge_counts.hasOwnProperty(medal) &&
                 badge_counts[medal] !== 0
             ) {
-                const part = () => {
+                const part = (() => {
                     return (
-                        <span className={medal}>
+                        <span className={medal} key={++i}>
                             <i
                                 className="fa fa-circle fa-fw"
                                 aria-hidden="true"
@@ -29,7 +30,7 @@ class StackFlair extends React.Component {
                             {badge_counts[medal]}
                         </span>
                     );
-                };
+                })();
                 medals.push(part);
             }
             return (
