@@ -26,6 +26,6 @@ class TemplaterTest extends TestCase
     public function testRender()
     {
         $render = $this->templater->render('index.html.twig');
-        $this->assertContains('<h1>Default', $render);
+        $this->assertContains('<div id="root"', $render);
     }
 }
