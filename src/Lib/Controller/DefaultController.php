@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Lib\Controller;
 
+use App\Mailer\Mailer;
 use GuzzleHttp\Psr7\Response;
 use Lib\Templating\Templater;
 use Psr\Http\Message\ResponseInterface;
@@ -13,11 +14,14 @@ class DefaultController
     /**
      * @var Templater
      */
-    private $templater;
+    private Templater $templater;
+
+    private Mailer $mailer;
 
     public function __construct()
     {
         $this->templater = new Templater();
+        $this->mailer = new Mailer($this->templater);
     }
 
     public function notFoundAction()
@@ -25,7 +29,7 @@ class DefaultController
         return $this->returnResponse('Not Found', 404);
     }
 
-    public function render($template, array $params): ResponseInterface
+    public function render($template, ?array $params = []): ResponseInterface
     {
         $view = $this->templater->render($template, $params);
 
@@ -40,5 +44,15 @@ class DefaultController
         ];
 
         return new Response($statusCode, $headers, $body);
+    }
+
+    public function getTemplater(): Templater
+    {
+        return $this->templater;
+    }
+
+    public function getMailer(): Mailer
+    {
+        return $this->mailer;
     }
 }

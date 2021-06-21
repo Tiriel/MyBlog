@@ -1,0 +1,23 @@
+<article class="ui very padded raised segment">
+    <h3 class="ui large center aligned header">Contactez-moi</h3>
+    <form class="ui form" action="/blog" method="post">
+        <div class="field">
+            <label for="firstname">Prénom</label>
+            <input type="text" name="{{ form.name }}[firstname]" id="{{ form.name }}[firstname]" placeholder="Votre prénom" value="{{ form.firstname ?: '' }}">
+        </div>
+        <div class="field">
+            <label for="lastname">Nom</label>
+            <input type="text" name="{{ form.name }}[lastname]" id="{{ form.name }}[lastname]" placeholder="Votre nom" value="{{ form.lastname ?: '' }}">
+        </div>
+        <div class="field">
+            <label for="email">Adresse email</label>
+            <input type="email" name="{{ form.name }}[email]" id="{{ form.name }}[email]" placeholder="Votre email" value="{{ form.email ?: '' }}">
+        </div>
+        <div class="field">
+            <label for="message">Message</label>
+            <textarea name="message" id="{{ form.name }}[message]" placeholder="Votre message">{{ form.message ?: '' }}</textarea>
+        </div>
+        <input type="hidden" name="csrf_token" id="csrf_token" value="{{ form.csrfToken.hash }}">
+        <button class="ui primary button" type="submit" id="submit">Envoyer</button>
+    </form>
+</article>

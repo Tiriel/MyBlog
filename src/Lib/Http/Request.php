@@ -14,11 +14,11 @@ class Request extends BaseRequest
     const METHOD_GET = 'GET';
     const METHOD_POST = 'POST';
 
-    protected $query;
-    protected $request;
-    protected $cookie;
-    protected $server;
-    protected $files;
+    public $query;
+    public $request;
+    public $cookie;
+    public $server;
+    public $files;
 
     public function __construct(array $query = [], array $request = [], array $cookie = [], array $server = [], array $files = [])
     {

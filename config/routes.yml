@@ -3,3 +3,9 @@ home:
   defaults:
     controller: 'MainController'
     action: 'indexAction'
+
+blogIndex:
+  path: '/blog'
+  defaults:
+    controller: 'BlogFrontController'
+    action: 'blogIndexAction'
